@@ -1,0 +1,40 @@
+.title{
+
+    background-image: url('../img/pattern.png');
+    background-repeat: repeat-x;
+    background-size:cover; width: 20%;
+    background-color: #91C3DD; 
+    
+}
+
+.articolo{
+    font-size: 30px;
+    
+}
+
+.sottotitolo{
+    color: lightgrey;
+}
+
+#tb{
+    color: aqua;
+}
+
+.sotto-immagine{
+    font-size: 11px;
+}
+
+#Highlighter{
+    background-color: yellow;
+}
+
+.list{
+    position: relative;
+    left: -25px;
+   
+}
+
+#riga{
+    background-color: #91C3DD;
+
+}
