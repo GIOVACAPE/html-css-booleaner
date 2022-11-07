@@ -1,9 +1,19 @@
+body{
+    max-width: 90%;
+}
+
+
+
+
+
+
 .title{
 
     background-image: url('../img/pattern.png');
     background-repeat: repeat-x;
     background-size:cover; width: 20%;
     background-color: #91C3DD; 
+    
     
 }
 
@@ -13,9 +23,17 @@
 }
 
 .sottotitolo{
-    color: lightgrey;
+    color: grey;
 }
 
+#occhiello{
+    font-size: 10px;
+}
+.tbl{
+    width: max-content;
+    overflow: auto;
+    table-layout: fixed;
+}
 #tb{
     color: aqua;
 }
@@ -29,6 +47,7 @@
 }
 
 .list{
+    text-align: left;
     position: relative;
     left: -25px;
    
@@ -37,4 +56,32 @@
 #riga{
     background-color: #91C3DD;
 
+}
+
+#t-table{
+    position: absolute;
+    
+}
+
+.prima-riga{
+    background-color: blue;
+    color: white;
+    
+}
+
+h4{
+    color: grey;
+}
+
+.lorem{
+            margin: 0%;
+            position: relative;
+}
+.prima-img{
+    font-size: 17px;
+    color: white;
+    position: absolute;
+    top: 17px;
+    left: 40px;
+    
 }
